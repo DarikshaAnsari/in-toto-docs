@@ -1,44 +1,28 @@
 ---
-title: Docsy
-description: A Hugo theme for creating great technical documentation sites
+title: "Documentation"
+linkTitle: "Documentation"
+weight: 1
+type: docs
+description: >
+  All of in-toto documentation
 ---
 
-{{% blocks/cover title="Welcome to Docsy!" image_anchor="top" height="full" %}}
-{{% param description %}}
-{.display-6}
+## Roadmap
 
-<a class="btn btn-lg btn-primary me-3" href="about/">Learn More</a>
-<a class="btn btn-lg btn-secondary" href="docs/get-started/">Get started</a>
-{.p-initial .my-5}
+Welcome to the in-toto documentation! Below you will find a roadmap guiding you to key resources and documentation:
 
-{{% blocks/link-down color="info" %}}
-{{% /blocks/cover %}}
+### [Getting Started](/get-started)
 
-{{% blocks/lead color="primary" %}}
-Docsy is a theme for the Hugo static site generator that's specifically designed
-for technical documentation sets. Our aim is to help you get a working
-documentation site up and running as easily as possible, so you can concentrate
-on creating great content for your users.
+Start here to learn the basics and get up and running with in-toto.
 
-<a href="https://www.netlify.com" target="_blank" rel="noopener">
-  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
-</a>
-{{% /blocks/lead %}}
+### [in-toto Technical Specification](https://in-toto.io/specs)
 
-{{% blocks/section color="dark" type="row" %}}
+Dive deep into the in-toto technical specifications to understand the underlying principles and standards.
 
-{{% blocks/feature icon="fa-lightbulb" title="See Docsy in action!" url="/docs/examples/" %}}
-As well as our example site, there's a growing number of projects using Docsy for their doc sites.
-{{% /blocks/feature %}}
+### [Basic Demo](https://github.com/in-toto/demo)
 
+Get hands-on with our basic demo to see in-toto in action and understand how to implement it in your projects.
 
-{{% blocks/feature icon="fa-brands fa-github" title="Contributions welcome!" url="https://github.com/google/docsy" %}}
-We do a [Pull Request](https://github.com/google/docsy/pulls) contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
+### [Python Reference Implementation Docs](https://in-toto.readthedocs.io/en/latest/)
 
-
-{{% blocks/feature icon="fa-brands fa-x-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-Find out about new features and how our users are using Docsy.
-{{% /blocks/feature %}}
-
-{{% /blocks/section %}}
+Explore the comprehensive reference documentation for the Python implementation of in-toto, including API details and usage examples.

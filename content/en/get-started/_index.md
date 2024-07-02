@@ -1,14 +1,13 @@
 ---
 title: "Getting Started"
 linkTitle: "Getting Started"
+type: docs
 weight: 1
 description: >
   An introductory guide to getting started with in-toto.
 ---
 
-# Getting Started with in-toto
-
-# in-toto ![Build](https://github.com/in-toto/in-toto/workflows/Run%20in-toto%20tests%20and%20linter/badge.svg) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1523/badge)](https://bestpractices.coreinfrastructure.org/projects/1523) [![Documentation Status](https://readthedocs.org/projects/in-toto/badge/?version=latest)](https://in-toto.readthedocs.io/en/latest/?badge=latest)
+## Introduction
 
 in-toto provides a framework to protect the integrity of the software supply chain. It does so by verifying that each task in the chain is carried out as planned, by authorized personnel only, and that the product is not tampered with in transit.
 

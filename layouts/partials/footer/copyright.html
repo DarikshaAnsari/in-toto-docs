@@ -11,18 +11,17 @@
     {{ $authors = . -}}
   {{ end -}}
 
-  <span class="td-footer__copyright">&copy;
-    {{ with $fromYear -}}
-      {{ . }}&ndash;
-    {{- end -}}
-    {{ $toYear | default now.Year }}
-    <span class="td-footer__authors">
-      {{- $authors
-            | default (printf "%s Authors" ($.Site.Title | default "Site"))
-            | $page.RenderString -}}
-    </span>
-    {{- /* Trim WS */ -}}
-  </span>
+  <div class="td-footer__documentation">
+    &copy; 2020-2023 in-toto Authors | Documentation Distributed under CC-BY-4.0
+  </div>
+
+  <div class="td-footer__linux-foundation">
+    &copy; 2023 The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage page</a>.
+  </div>
+  <br/>
+  <div class="td-footer__research-support">
+    This research was supported by the US National Science Foundation (NSF), the Defense Advanced Research Projects Agency (DARPA) and the Air Force Research Laboratory (AFRL). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of NSF, DARPA and AFRL. The United States Government is authorized to reproduce and distribute reprints notwithstanding any copyright notice herein.
+  </div>
 
   {{- with T "footer_all_rights_reserved" -}}
     <span class="td-footer__all_rights_reserved">
