@@ -2,4 +2,11 @@
 .hugo_build.lock
 /public
 resources/
+
+# NPM
+
+/node_modules
+package-lock.json
+
+# Other
 tmp
