@@ -4,7 +4,7 @@ description = "A framework to secure the integrity of software supply chains"
 
 enableRobotsTXT = true
 
-theme = ["docsy"]
+theme = "docsy"
 
 ###############################################################################
 # Docsy
