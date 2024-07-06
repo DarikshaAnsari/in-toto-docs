@@ -4,4 +4,3 @@ command = "npm run build"
 
 [context.production]
 command = "npm run build"
-

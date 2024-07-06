@@ -1,5 +1,47 @@
-/*
-Add styles or override variables from the theme here.
-*/
+/* Updated color scheme to match the background image */
 
-$secondary: #D95040;
+$otel-colors: (
+  'orange': #f5a800,       // Keep existing
+  'orange-light': #fff0ce, // Keep existing
+  'blue': #2a3f54,         // Darker blue for better contrast
+  'blue-light': #a3b5c8,   // Lighter blue for accents
+  'purple': #3a4d6c,       // Darker purple for better contrast
+  'light-green': #c0f587,  // Keep existing
+  'java': #b07219,         // Keep existing
+);
+
+$otel-component-colors: (
+  'collector': #1c1f23,      // Darker shade
+  'core': #2c3ed3,           // Keep existing
+  'cpp': #f34b7d,            // Keep existing
+  'dotnet': #178600,         // Keep existing
+  'erlang': #b83998,         // Keep existing
+  'exporter': #3ed32c,       // Keep existing
+  'extension': #d3532c,      // Keep existing
+  'go': #00add8,             // Keep existing
+  'instrumentation': #d32c3e,// Keep existing
+  'java': #b07219,           // Keep existing
+  'js': #f1e05a,             // Keep existing
+  'lua': #03037b,            // Keep existing
+  'php': #4f5d95,            // Keep existing
+  'processor': #d32c42,      // Keep existing
+  'python': #3572a5,         // Keep existing
+  'receiver': #742cd3,       // Keep existing
+  'resource-detector': green,// Keep existing
+  'ruby': #701516,           // Keep existing
+  'rust': #dea584,           // Keep existing
+  'swift': #de5d43,          // Keep existing
+  'utilities': #2cd3b4,      // Keep existing
+);
+
+$otel-registry-license-colors: (
+  'apache-20': #e83e8c,        // Keep existing
+  'bsd-2-clause': #8ce83e,     // Keep existing
+  'mit': #3e8ce8,              // Keep existing
+  'artistic-10-perl': #e8c83e, // Keep existing
+);
+
+$primary: map-get($otel-colors, 'blue');       // Darker blue for primary elements
+$secondary: map-get($otel-colors, 'orange');   // Bright orange for secondary elements
+$secondary_1: map-get($otel-colors, 'java');   // Keep existing
+$td-enable-google-fonts: false;
