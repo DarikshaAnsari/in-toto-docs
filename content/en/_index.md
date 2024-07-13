@@ -3,7 +3,11 @@ title: in-toto
 description: A framework to secure the integrity of software supply chains
 ---
 
-{{% blocks/cover title="Welcome to in-toto!" image_anchor="top" height="full" %}}
+{{% blocks/cover image_anchor="top" height="max" %}}
+<!-- prettier-ignore -->
+<img src="/images/in-toto-horizontal-white.svg" alt="in-toto" class="in-toto-logo" style="max-width: 35rem; height: auto;">
+
+<!-- prettier-ignore -->
 {{% param description %}}
 {.display-6}
 
@@ -23,11 +27,11 @@ description: A framework to secure the integrity of software supply chains
 
 {{% blocks/section color="dark" type="row" %}}
 
-{{% blocks/feature icon="fa-solid fa-lock" title="Software supply chain protection" url="/docs/examples/" %}}
+{{% blocks/feature icon="fa-solid fa-lock" title="Software supply chain protection" url="/docs/what_is_in_toto" %}}
 **Supply chain compromises are becoming a frequent occurrence. in-toto can help you protect your software supply chain.**
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-brands fa-github" title="Open, extensible standard" url="https://github.com/google/docsy" %}}
+{{% blocks/feature icon="fa-brands fa-github" title="Open, extensible standard" url="/docs/spec" %}}
 **in-toto is an open metadata standard that you can implement in your software's supply chain toolchain.**
 {{% /blocks/feature %}}
 
