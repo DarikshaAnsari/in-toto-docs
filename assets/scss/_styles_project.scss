@@ -90,15 +90,16 @@
   }
 }
 
+/* Custom styles for the navbar */
 .td-navbar {
-  .navbar-brand {
-    @include media-breakpoint-up(md) {
-      padding: 0;
-    }
-    svg {
-      height: 35px;
-      margin-left: 5rem; // Adjust the value as needed
-    }
+  background-color: $primary  !important; /* Set background color to black */
+  opacity: 1; /* Ensure the navbar is fully opaque */
+}
+
+.td-navbar .navbar-brand {
+  svg {
+    height: 3rem;
+    margin-left: 5rem;
   }
 }
 
