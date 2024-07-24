@@ -5,7 +5,7 @@ description: A framework to secure the integrity of software supply chains
 
 {{% blocks/cover image_anchor="top" height="max" %}}
 <!-- prettier-ignore -->
-<img src="/images/in-toto-horizontal-white.svg" alt="in-toto" class="in-toto-logo" style="max-width: 35rem; height: auto;">
+<img src="/images/in-toto-horizontal-white.svg" alt="in-toto" class="in-toto-logo" style="max-width: 40rem; height: auto;">
 
 <!-- prettier-ignore -->
 {{% param description %}}
