@@ -21,11 +21,10 @@ imaging:
 
 menu:
   main:
-    - name: in-toto website
-      weight: 40
-      url: https://in-toto.io
-      post: <sup><i class="ps-1 fa-solid fa-up-right-from-square fa-xs"
-        aria-hidden="true"></i></sup>
+    - name: Learn More
+      weight: 50
+      url: /Learn_More
+
 
 languages:
   en:

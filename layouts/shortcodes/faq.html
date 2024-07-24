@@ -1,0 +1,30 @@
+{{ $faq := site.Data.faq }}
+{{ range $idx, $qa := $faq }}
+{{ $num := add $idx 1 }}
+<style>
+  .faq {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .question {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .answer {
+    font-size: 1rem;
+  }
+
+</style>
+<div class="faq">
+  <p class="question">
+    <strong>{{ $num }}</strong>. {{ .q | markdownify }}
+  </p>
+    
+  <p class="answer">
+    {{ .a | markdownify }}
+  </p>
+</div>
+{{ end }}

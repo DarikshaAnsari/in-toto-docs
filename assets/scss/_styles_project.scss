@@ -323,3 +323,41 @@ details {
     overflow-y: auto;
   }
 }
+
+.faq {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.question {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 1rem;
+}
+.container {
+  margin: auto;
+  padding: 20px;
+}
+
+.columns {
+display: flex;
+align-items: flex-start;
+margin-bottom: 10px;
+}
+
+.is-2 {
+  flex: 0 0 16.67%; /* Equivalent to 2 out of 12 columns */
+  font-weight: bold;
+  color: #555;
+}
+
+.column-content {
+flex: 1;
+margin-left: 20px;
+}
+
+
