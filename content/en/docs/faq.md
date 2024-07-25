@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions
 type: docs
-weight: 5
+weight: 10
 faq:
   - q: Why the name “in-toto”?
     a: |
