@@ -2,7 +2,6 @@
 title: Security Audit '23
 description: Explore our latest security audits and findings.
 type: docs
-weight: 3
 ---
 
 We are excited to announce completion of a source code audit of the in-toto

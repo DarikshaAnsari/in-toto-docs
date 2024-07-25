@@ -3,6 +3,12 @@
   <thead>
     <tr>
       <th>
+        Name
+      </th>
+      <th>
+        Status
+      </th>
+      <th>
         Version
       </th>
       <th>
@@ -13,6 +19,12 @@
   <tbody>
     {{ range $specs }}
     <tr>
+      <td>
+        {{ .name }}
+      </td>
+      <td>
+        {{ .status }}
+      </td>
       <td>
         <a href="{{ .url }}" target="_blank">
           {{ .version }}

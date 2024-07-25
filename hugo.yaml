@@ -19,13 +19,6 @@ imaging:
   quality: 75
   anchor: smart
 
-menu:
-  main:
-    - name: Learn More
-      weight: 50
-      url: /Learn_More
-
-
 languages:
   en:
     languageName: English
@@ -48,7 +41,7 @@ params:
     authors: >-
       in-toto Authors | Documentation Distributed under CC-BY-4.0[CC BY
       4.0](https://creativecommons.org/licenses/by/4.0)
-    from_year: 2018
+    from_year: 2020
   version: 0.10.0
   url_latest_version: https://in-toto.io/docs/
   github_repo: https://github.com/in-toto/in-toto.io
