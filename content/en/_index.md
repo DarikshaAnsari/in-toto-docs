@@ -12,7 +12,7 @@ description: A framework to secure the integrity of software supply chains
 {.display-6}
 
 <a class="btn btn-lg btn-primary me-3" href="docs/what-is-in-toto/">Learn More</a>
-<a class="btn btn-lg btn-primary me-3" href="/docs/demo">Try the demo</a>
+<a class="btn btn-lg btn-primary me-3" href="https://github.com/in-toto/demo">Try the demo</a>
 <a class="btn btn-lg btn-primary" href="https://github.com/in-toto/friends">Explore integrations</a>
 {.p-initial .my-5}
 <div class="h3 mt-4">
@@ -27,7 +27,7 @@ description: A framework to secure the integrity of software supply chains
 
 {{% blocks/section color="dark" type="row" %}}
 
-{{% blocks/feature icon="fa-solid fa-lock" title="Software supply chain protection" url="/docs/system-overview" %}}
+{{% blocks/feature icon="fa-solid fa-lock" title="Software supply chain protection" url="/docs/system-overview/" %}}
 **Supply chain compromises are becoming a frequent occurrence. in-toto can help you protect your software supply chain.**
 {{% /blocks/feature %}}
 
