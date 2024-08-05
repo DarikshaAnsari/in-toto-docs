@@ -1,7 +1,6 @@
 ---
 title: "Getting Started"
 linkTitle: "Getting Started"
-type: docs
 weight: 2
 description: >
   An introductory guide to getting started with in-toto.
