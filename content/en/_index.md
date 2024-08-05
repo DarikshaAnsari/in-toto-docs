@@ -12,8 +12,8 @@ description: A framework to secure the integrity of software supply chains
 {.display-6}
 
 <a class="btn btn-lg btn-primary me-3" href="docs/what-is-in-toto/">Learn More</a>
-<a class="btn btn-lg btn-primary me-3" href="https://github.com/in-toto/demo">Try the demo</a>
-<a class="btn btn-lg btn-primary" href="https://github.com/in-toto/friends">Explore integrations</a>
+<a class="btn btn-lg btn-primary me-3" href="docs/demo">Try the demo</a>
+<a class="btn btn-lg btn-primary" href="ecosystem/">Explore integrations</a>
 {.p-initial .my-5}
 <div class="h3 mt-4">
 <a class="btn btn-lg btn-secondary" href="docs/getting-started/">Get started <i class="fas fa-arrow-right"></i></a>
