@@ -1,0 +1,43 @@
+.badge {
+  @each $component, $color in $otel-component-colors {
+    &.badge-#{$component} {
+      color: white;
+      background-color: $color;
+    }
+  }
+
+  @each $component, $color in $otel-registry-license-colors {
+    &.badge-#{$component} {
+      color: white;
+      background-color: $color;
+    }
+  }
+
+  &.badge-elixir {
+    color: map-get($otel-component-colors, 'erlang');
+    background-color: inherit;
+    border: solid 1px map-get($otel-component-colors, 'erlang');
+  }
+
+  &.badge-js {
+    color: map-get($otel-component-colors, 'js');
+    background-color: inherit;
+    border: solid 1px map-get($otel-component-colors, 'js');
+  }
+
+  &.badge-kotlin {
+    color: map-get($otel-component-colors, 'java');
+    background-color: inherit;
+    border: solid 1px map-get($otel-component-colors, 'java');
+  }
+
+  // Default color attributes, in case we miss a component definition above;
+  // which has happened, see https://github.com/open-telemetry/opentelemetry.io/pull/2481.
+  $default-otel-badge-bg: #f5a800; // Bright orange for default badges
+  color: white;
+  background-color: $default-otel-badge-bg;
+}
+
+.registry-entry {
+  @extend .shadow;
+}
