@@ -1,7 +1,6 @@
 ---
 title: Security Audit '23
 description: Explore our latest security audits and findings.
-type: docs
 date: 2023-05-11
 author: 'Aditya Sirish, [NYU Secure Systems Lab](https://ssl.engineering.nyu.edu)'
 ---
