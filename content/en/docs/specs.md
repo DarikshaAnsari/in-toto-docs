@@ -4,4 +4,4 @@ linkTitle: Specs
 weight: 7
 ---
 
-{{< specs >}}
+{{% spec-table %}}
