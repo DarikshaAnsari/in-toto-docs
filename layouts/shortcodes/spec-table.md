@@ -2,6 +2,6 @@
 
 | Version | Description |
 | ------- | ----------- |
-{{ range $specs }}
+{{ range $specs -}}
 | [{{ .version }}]({{ .url }}) | {{ .description }} |
 {{ end }}
