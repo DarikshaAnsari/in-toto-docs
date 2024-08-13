@@ -9,7 +9,7 @@ understanding and implementing in-toto to secure your software supply chains.
 
 ## in-toto Technical Specification
 
-Dive into the [in-toto Technical Specification](/docs/spec-table) for detailed
+Dive into the [in-toto Technical Specification](/docs/specs) for detailed
 insights into the framework's design principles and architecture. This section
 lays the foundation for understanding how in-toto ensures software integrity.
 
