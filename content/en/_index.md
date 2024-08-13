@@ -16,7 +16,7 @@ description: A framework to secure the integrity of software supply chains
 <a class="btn btn-lg btn-primary" href="https://github.com/in-toto/friends">Explore integrations</a>
 {.p-initial .my-5}
 <div class="h3 mt-4">
-<a class="btn btn-lg btn-secondary" href="/docs/get-started/">Get started <i class="fas fa-arrow-right"></i></a>
+<a class="btn btn-lg btn-secondary" href="docs/getting-started/">Get started <i class="fas fa-arrow-right"></i></a>
 </div>
 {{% blocks/link-down color="info" %}}
 {{% /blocks/cover %}}
