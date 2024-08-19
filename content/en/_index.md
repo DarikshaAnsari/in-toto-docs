@@ -31,7 +31,7 @@ description: A framework to secure the integrity of software supply chains
 **Supply chain compromises are becoming a frequent occurrence. in-toto can help you protect your software supply chain.**
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-solid fa-book" title="Open, extensible standard" url="/docs/spec-table/" %}}
+{{% blocks/feature icon="fa-solid fa-book" title="Open, extensible standard" url="/docs/specs/" %}}
 **in-toto is an open metadata standard that you can implement in your software's supply chain toolchain.**
 {{% /blocks/feature %}}
 
