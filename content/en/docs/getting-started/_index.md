@@ -152,13 +152,13 @@ You can read more about how in-toto works by taking a look at the
 
 
 ## Security Issues and Bugs
-See [SECURITY.md](SECURITY.md).
+See [SECURITY.md](https://github.com/in-toto/in-toto/blob/develop/SECURITY.md).
 
 
 ## Governance and Contributing
 
  For information about in-toto's governance and contributing guidelines, see 
- [GOVERNANCE.md](GOVERNANCE.md) and [CONTRIBUTING.md](doc/source/CONTRIBUTING.md).
+ [GOVERNANCE.md](https://github.com/in-toto/in-toto/blob/develop/GOVERNANCE.md) and [CONTRIBUTING.md](https://github.com/in-toto/in-toto/blob/develop/doc/source/CONTRIBUTING.md).
 
 ## Acknowledgments
 This project is managed by Prof. Santiago Torres-Arias at Purdue University.
