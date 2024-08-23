@@ -62,7 +62,7 @@ params:
     sidebar_cache_limit: 10
     sidebar_menu_compact: true
     sidebar_menu_foldable: false
-    sidebar_search_disable: false
+    sidebar_search_disable: true
     feedback:
       enable: true
       'yes': >-
