@@ -36,7 +36,7 @@ markup:
     noClasses: false # Required for dark-mode
 
 params:
-  logo: "/images/logo.png"  # Add this line
+  logo: '/images/logo.png' # Add this line
   copyright:
     authors: >-
       in-toto Authors | Documentation Distributed under CC-BY-4.0[CC BY
@@ -66,33 +66,37 @@ params:
     feedback:
       enable: true
       'yes': >-
-        Glad to hear it! Please <a href="https://github.com/in-toto/in-toto.io/issues/new">tell us how we can improve</a>.
+        Glad to hear it! Please <a
+        href="https://github.com/in-toto/in-toto.io/issues/new">tell us how we
+        can improve</a>.
       'no': >-
-        Sorry to hear that. Please <a href="https://github.com/in-toto/in-toto.io/issues/new">tell us how we can improve</a>.
+        Sorry to hear that. Please <a
+        href="https://github.com/in-toto/in-toto.io/issues/new">tell us how we
+        can improve</a>.
     readingtime:
       enable: false
   links:
     user:
-    - name: GitHub Discussions
-      url: https://github.com/in-toto/community
-      icon: fa-brands fa-github
-      desc: Discussion and help from your fellow users
-    - name: User mailing list
-      url: mailto:in-toto-public@googlegroups.com
-      icon: fa-solid fa-envelope
-      desc: Sign up for Docsy announcements
-    - name: Slack
-      url: https://slack.cncf.io/
-      icon: fa-brands fa-slack
-      desc: in-toto on CNCF Slack Workspace
-    - name: IRC
-      url: https://web.libera.chat/#in-toto
-      icon: fa-solid fa-comments
-      desc: in-toto on libera
-    - name: Email the Developers
-      url: mailto:in-toto-dev@googlegroups.com
-      icon: fa-solid fa-envelope
-      desc: Email the developers
+      - name: GitHub Discussions
+        url: https://github.com/in-toto/community
+        icon: fa-brands fa-github
+        desc: Discussion and help from your fellow users
+      - name: User mailing list
+        url: mailto:in-toto-public@googlegroups.com
+        icon: fa-solid fa-envelope
+        desc: Sign up for Docsy announcements
+      - name: Slack
+        url: https://slack.cncf.io/
+        icon: fa-brands fa-slack
+        desc: in-toto on CNCF Slack Workspace
+      - name: IRC
+        url: https://web.libera.chat/#in-toto
+        icon: fa-solid fa-comments
+        desc: in-toto on libera
+      - name: Email the Developers
+        url: mailto:in-toto-dev@googlegroups.com
+        icon: fa-solid fa-envelope
+        desc: Email the developers
 
   plantuml:
     enable: true

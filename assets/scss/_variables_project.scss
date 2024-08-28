@@ -1,12 +1,19 @@
 /* Updated color scheme to match the background image */
 
 $in-toto-colors: (
-  'orange': #ed4b27,       // Keep existing
-  'orange-light': #f47a39, // Keep existing
-  'blue': #1b2838,         // Darker blue for better contrast
-  'blue-light': #a3b5c8,   // Lighter blue for accentss
+  'orange': #ed4b27,
+  // Keep existing
+  'orange-light': #f47a39,
+  // Keep existing
+  'blue': #1b2838,
+  // Darker blue for better contrast
+  'blue-light': #a3b5c8,
+  // Lighter blue for accentss
 );
 
-$primary: map-get($in-toto-colors, 'blue');       // Darker blue for primary elements
-$secondary: map-get($in-toto-colors, 'orange');   // Bright orange for secondary elements
+$primary: map-get($in-toto-colors, 'blue'); // Darker blue for primary elements
+$secondary: map-get(
+  $in-toto-colors,
+  'orange'
+); // Bright orange for secondary elements
 $td-enable-google-fonts: false;
