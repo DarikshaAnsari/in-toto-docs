@@ -2,7 +2,8 @@
 title: Security Audit '23
 description: Explore our latest security audits and findings.
 date: 2023-05-11
-author: 'Aditya Sirish, [NYU Secure Systems Lab](https://ssl.engineering.nyu.edu)'
+author:
+  'Aditya Sirish, [NYU Secure Systems Lab](https://ssl.engineering.nyu.edu)'
 ---
 
 We are excited to announce completion of a source code audit of the in-toto
@@ -39,15 +40,16 @@ all security findings and GitHub issues for the informational findings
 It shall be noted that all security-relevant issues can be mitigated by a
 correct usage of in-toto, or by understanding its scope. In fact the issue
 marked high-severity was well known to us as a possible use pattern and had an
-issue open for several years.  Thus, our fixes consist, above all, of
-clarifications in the specification and usage documentation.  Below we give an
+issue open for several years. Thus, our fixes consist, above all, of
+clarifications in the specification and usage documentation. Below we give an
 overview of all security-relevant findings and our response to them. More
 comprehensive details can be found in the linked advisories and the
 [report](/2023-security-audit-report.pdf).
 
 ### File Metadata Ignored (medium severity)
 
-Advisory: [GHSA-wqrg-wjp9-wqfq](https://github.com/in-toto/docs/security/advisories/GHSA-wqrg-wjp9-wqfq)
+Advisory:
+[GHSA-wqrg-wjp9-wqfq](https://github.com/in-toto/docs/security/advisories/GHSA-wqrg-wjp9-wqfq)
 
 in-toto does not verify the integrity of file metadata. This might allow
 attackers to provoke privilege escalation or degradation of the final product.
@@ -59,9 +61,11 @@ as part of the file contents.
 
 ### Configuration Read From Local Directory (medium severity)
 
-Advisory: [GHSA-wqrg-wjp9-wqfq](https://github.com/in-toto/in-toto/security/advisories/GHSA-wc64-c5rv-32pf)
+Advisory:
+[GHSA-wqrg-wjp9-wqfq](https://github.com/in-toto/in-toto/security/advisories/GHSA-wc64-c5rv-32pf)
 
-CVE: [CVE-2023-32076](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32076)
+CVE:
+[CVE-2023-32076](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32076)
 
 The link generation tool of the reference implementation can be configured using
 RC files stored in directories following the XDG base directory specification.
@@ -70,7 +74,7 @@ attacker that controls the inputs to a step may compromise the link metadata and
 evade detection by including such a configuration with their materials in
 transit, which, e.g. filter certain artifacts from being recorded.
 
-This is a special case of  “Functionaries Do Not Perform Verification”, which is
+This is a special case of “Functionaries Do Not Perform Verification”, which is
 described below. Further, after conversations with in-toto adopters, we realized
 that while RC files are widely used by other systems, in-toto users typically
 set configurations using API parameters or CLI arguments. As such, we removed
@@ -78,7 +82,8 @@ support for RC files from the reference implementation.
 
 ### Layout Replay (low severity)
 
-Advisory: [GHSA-73jv-h86v-c2vh](https://github.com/in-toto/docs/security/advisories/GHSA-73jv-h86v-c2vh)
+Advisory:
+[GHSA-73jv-h86v-c2vh](https://github.com/in-toto/docs/security/advisories/GHSA-73jv-h86v-c2vh)
 
 It is possible for an attacker to replay an older, since-replaced layout that
 has not yet expired.
@@ -93,7 +98,8 @@ conjunction with in-toto to defend against layout replay attacks.
 
 ### Link File Reuse (medium severity)
 
-Advisory: [GHSA-6q78-j78h-pqm2](https://github.com/in-toto/docs/security/advisories/GHSA-6q78-j78h-pqm2)
+Advisory:
+[GHSA-6q78-j78h-pqm2](https://github.com/in-toto/docs/security/advisories/GHSA-6q78-j78h-pqm2)
 
 Link metadata files are not inherently tied to a layout, which might allow an
 attacker to replay ​​steps by replacing link files with ones from an earlier
@@ -107,7 +113,8 @@ ITE-3 are designed to prevent unallowed metadata reuse.
 
 ### Functionaries Do Not Perform Verification (high severity)
 
-Advisory: [GHSA-p86f-xmg6-9q4x](https://github.com/in-toto/docs/security/advisories/GHSA-p86f-xmg6-9q4x)
+Advisory:
+[GHSA-p86f-xmg6-9q4x](https://github.com/in-toto/docs/security/advisories/GHSA-p86f-xmg6-9q4x)
 
 An attacker, who controls the product in transit, may compromise the whole
 supply chain and stay undetected, by modifying only the product in transit, and
@@ -124,7 +131,8 @@ we have added, can be found in the advisory.
 
 ### Several PGP Issues (varying severity)
 
-Advisory: [GHSA-jjgp-whrp-gq8m](https://github.com/in-toto/in-toto/security/advisories/GHSA-jjgp-whrp-gq8m)
+Advisory:
+[GHSA-jjgp-whrp-gq8m](https://github.com/in-toto/in-toto/security/advisories/GHSA-jjgp-whrp-gq8m)
 
 PGP keys in the reference implementation are not validated when verifying
 metadata signatures. More specifically, in-toto does not check if the validity
