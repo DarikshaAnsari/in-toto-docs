@@ -5,11 +5,9 @@ description: A framework to secure the integrity of software supply chains
 
 {{% blocks/cover image_anchor="top" height="max" %}}
 
-<!-- prettier-ignore -->
 <img src="/images/in-toto-horizontal-white.svg" alt="in-toto" class="in-toto-logo" style="max-width: 40rem; height: auto;">
 
-<!-- prettier-ignore -->
-{{% param description %}}
+{{% param description %}} 
 {.display-6}
 
 <a class="btn btn-lg btn-primary me-3" href="docs/what-is-in-toto/">Learn

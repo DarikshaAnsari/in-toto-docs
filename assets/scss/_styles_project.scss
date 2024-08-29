@@ -1,9 +1,8 @@
 @import 'td/code-dark';
 
-/* Custom styles for the navbar */
 .td-navbar {
-  background-color: $primary !important; /* Set background color to black */
-  opacity: 1; /* Ensure the navbar is fully opaque */
+  background-color: $primary !important;
+  opacity: 1;
 }
 
 .td-navbar .navbar-brand {
